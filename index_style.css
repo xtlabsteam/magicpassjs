@@ -1,0 +1,114 @@
+/*
+
+[HOJA DE ESTILOS MAGICPASS-JS]
+
+
+En esta pequeña hoja se encuentran los diseños principales para
+la estructura básica de MAGICPASS-JS
+
+
+[OPEN-SOURCE XTLABS 2026©]
+
+*/
+
+/* DISEÑO DEL CUERPO DE LA PÁGINA WEB */
+
+body{
+
+    background-color: rgb(236, 236, 236);
+
+    text-align: center;
+    font-size: large;
+    font-family: monospace;
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+/* DISEÑO DE ESTILOS TÍTULO PRINCIPAL (CONTENEDOR Y ENCABEZADOS)*/
+
+.main_title_container{
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+h1{
+    
+    font-size: x-large;
+    
+}
+h2{
+    
+    font-size: large;
+
+}
+
+#labs_id{
+
+    color:rgb(0, 170, 255);
+
+}
+
+/* DISEÑO DE ESTILOS FORMULARIO PRINCIPAL */
+
+img{
+
+  display: block;
+  margin: 0 auto;
+
+}
+
+.data_container{
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+label:hover{
+
+    color: rgb(0, 170, 255);
+
+}
+
+#magicbutton_input{
+
+    margin:10px;
+
+}
+
+#magicbutton2_input{
+
+    margin:10px;
+
+}
+
+#magicbutton_input:hover{
+
+    background-color: rgb(0, 170, 255);
+    color: black;
+
+}
+
+#magicbutton2_input:hover{
+
+    background-color: rgb(0, 170, 255);
+    color: black;
+
+}
+
+/* DISEÑO DE ESTILOS PIE DE PÁGINA */
+
+footer{
+
+    margin-top: auto;
+    font-size: large;
+
+}
